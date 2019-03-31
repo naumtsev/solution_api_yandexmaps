@@ -40,7 +40,7 @@ def search_organization(cord):
     search_api_server = "https://search-maps.yandex.ru/v1/"
     api_key = "dda3ddba-c9ea-4ead-9010-f43fbc15c6e3"
     address_ll = cord
-    delt = 50 / (111000)
+    delt = 25 / (111000)
     spn = str(delt) + ',' + str(delt)
     search_params = {
             "apikey": api_key,
